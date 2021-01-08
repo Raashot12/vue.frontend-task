@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Responsive + Encoding Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+	<link href = "style.css" rel = "stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+	integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+	crossorigin="anonymous" />
+    <!-- Title -->
+    <title>AQUILA    AVEIONEN</title>
+</head>
+<body >
+<!-- Main App -->
+<div id="aquila">
+	<aside style="color: white;" class="icons" >
+		<div class="icon-space" >
+			
+			<i class="fab fa-twitter-square" title="twitter"></i>
+		</div>
+		<div>
+	<i class="fab fa-instagram" title="instagram"></i>
+		</div>
+		<div>
+			<i class="fab fa-snapchat-square" title="snapchat"></i>
+		</div>
+		<div>
+		<i class="fas fa-envelope-square" title="email address"> </i>
+		</div>
+	</aside>
+	<aside style="color: white;" class="icons-text">
+		<div class="icon-space" >
+			<a href=>{{results.social_media.twitter}}</a>
+		</div>
+		<div style="padding-top: 2.5rem;">
+			<a href=>{{results.social_media.instagram}}</a>
+		</div>
+		<div style="padding-top: 2.5rem;">
+		<a href=>{{results.social_media.snapchat}}</a>
+		</div>
+		<div style="padding-top: 2.5rem;">
+			<a href=>{{results.social_media.email}}</a>
+		</div>
+	</aside>
+<div class="bk-container">
+<div style="text-align: center; color: white; 
+				font-size: 20px;
+				line-height: normal;
+				white-space: pre-line;	
+				padding-top: 50px;
+				padding-bottom: 50px;
+				letter-spacing: 1.2em;
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				">{{results.name}}</div>	
+<img  class="forefront-img" src="./forefront.png"/> 
+<ul class="nav-element">
+	<li>
+		HOME
+	</li>
+	<li>
+		ABOUT
+	</li>
+	<div class="avartar">
+		<img src = "/forefront.png" alt="avarta" >
+	</div>
+	<li>
+		GALLERY
+	</li>
+	<li>
+		CONTACT
+	</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+<!-- Vue and Custom JavaScript -->
+	<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src = "script.js"></script>
+</html>
+<!-- 
+
+	<main>
+		<div style="text-align: center; color: white; 
+				font-size: 70px;
+				font-weight: bold;
+				margin-top:50px;	
+				">{{results.name}}</div>
+		<img src=""> -->
