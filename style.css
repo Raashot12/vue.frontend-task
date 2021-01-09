@@ -30,6 +30,17 @@ img.forefront-img{
 	display: none;
 }
 }
+
+@media screen and (max-width:360px){
+.avartar img{
+	display: none;
+}
+
+.icons{
+display: none;
+}
+}
+
 @media screen and (max-width:940px){
 	.icons-text{
 	display: none;
@@ -42,10 +53,14 @@ img.forefront-img{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	align-items: center;
+	text-align: center;
+	position: relative;
+	right: 1rem;
 }
 ul li {
 	list-style: none;
 	cursor: pointer;
+	font-size: 12px;
 }
 
 .icons{
